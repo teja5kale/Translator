@@ -1,0 +1,9 @@
+﻿  Point.cpp
+  Reader.cpp
+  Triangle.cpp
+  Triangulation.cpp
+D:\TejasWorkspace\Tri\Translator\Sketcher 3D\Triangulator\Source Files\Triangulation.cpp(10,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Writer.cpp
+  Triangulator.cpp
+  Generating Code...
+  Triangulator.vcxproj -> D:\TejasWorkspace\Tri\Translator\Sketcher 3D\Triangulator\x64\Debug\Triangulator.exe
