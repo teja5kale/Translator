@@ -16,6 +16,6 @@ void Writer::write(vector<Triangle> triangles,vector<double> upoints) {
 		outfile << upoints[i.p1.x] << " " << upoints[i.p1.y] << " " << upoints[i.p1.z] << endl;
 		outfile << endl;
 		outfile << endl;
-	}
+	}//gfdfg
 	outfile.close();
 }
