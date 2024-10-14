@@ -24,6 +24,7 @@
     <ProjectGuid>{dcb80105-afce-46d4-8219-7482c0c59fc8}</ProjectGuid>
     <RootNamespace>Triangulator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Translator</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -104,7 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\TejasWorkspace\Tri\Translator\Sketcher 3D\Triangulator\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\TejasWorkspace\Translator\Translator\Triangulator\Header Files;D:\TejasWorkspace\Tri\Translator\Sketcher 3D\Triangulator\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,11 +137,11 @@
     <ClCompile Include="Triangulator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Point.h" />
-    <ClInclude Include="Reader.h" />
-    <ClInclude Include="Triangle.h" />
-    <ClInclude Include="Triangulation.h" />
-    <ClInclude Include="Writer.h" />
+    <ClInclude Include="Header Files\Point.h" />
+    <ClInclude Include="Header Files\Reader.h" />
+    <ClInclude Include="Header Files\Triangle.h" />
+    <ClInclude Include="Header Files\Triangulation.h" />
+    <ClInclude Include="Header Files\Writer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,7 +7,8 @@
 #include <vector>
 using namespace std;
 class Writer{
-public:
+private:
     string file;
-    void write(vector<Triangle> triangle_list,vector<double> upoints);
+public:
+    void write(vector<Triangle> triangle_list, vector<double> upoints);
 };
