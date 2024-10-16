@@ -10,4 +10,4 @@ class Writer{
 public:
     string file;
     void write(vector<Triangle> triangle_list,vector<double> upoints);
-};
+}; 
